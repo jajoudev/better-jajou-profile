@@ -6,7 +6,7 @@ function Icons({ href, IconComponent, size, color, css }) {
       <ul>
         <li>
           <a href={href} className={css} target="_blank">
-            <IconComponent size={size} color={color} />
+            <IconComponent size={size} color={color} className={css}/>
           </a>
         </li>
       </ul>

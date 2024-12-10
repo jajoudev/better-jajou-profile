@@ -11,14 +11,16 @@ function Contact() {
     <>
       <main>
         <div className="flex flex-col justify-center items-center pt-10">
-          <img src={JajouPic} alt="Le profil de Jajou" className="w-44 rounded-full" />
-          <p className="mt-3 text-white font-bold">He/Him 16yo</p>
+          <img src={JajouPic} alt="Le profil de Jajou" className="w-44 rounded-full md:w-52" />
+          <p className="mt-3 text-white font-bold md:text-xl">He/Him 16yo</p>
           <div className="flex gap-2 mt-5">
             <Icons
               href="https://www.youtube.com/@Jajou64"
               size={35}
               IconComponent={YoutubeIcon}
               color="#3b82f6"
+              css="md:size{40}"
+              
             />
             <Icons
               href="https://www.twitch.tv/jajoouuu"
