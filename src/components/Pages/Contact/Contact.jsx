@@ -1,5 +1,5 @@
 import JajouPic from "../../../assets/images/jajou-pic.png";
-import Icons from "../../Media/SocialsIcons";
+import SocialsIcons from "../../Media/SocialsIcons";
 import {
   YoutubeIcon,
   TwitchIcon,
@@ -14,7 +14,7 @@ function Contact() {
           <img src={JajouPic} alt="Le profil de Jajou" className="w-44 rounded-full md:w-52" />
           <p className="mt-3 text-white font-bold md:text-xl">He/Him 16yo</p>
           <div className="flex gap-2 mt-5">
-            <Icons
+            <SocialsIcons
               href="https://www.youtube.com/@Jajou64"
               size={35}
               IconComponent={YoutubeIcon}
@@ -22,13 +22,13 @@ function Contact() {
               css="md:size{40}"
               
             />
-            <Icons
+            <SocialsIcons
               href="https://www.twitch.tv/jajoouuu"
               size={35}
               IconComponent={TwitchIcon}
               color="#3b82f6"
             />
-            <Icons
+            <SocialsIcons
               href="https://github.com/jajoudev"
               size={35}
               IconComponent={Github01Icon}
